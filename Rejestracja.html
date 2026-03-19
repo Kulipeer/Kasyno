@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rejestracja</title>
+    <link rel="stylesheet" href="Rejestracja.css">
+</head>
+<body>
+    <a href="index.html">
+        <img src="obrazki/logo.png" alt="NV CASINO" id="Logo">
+    </a>
+    <h1>REJESTRACJA</h1>
+    <h3>Stwórz konto i zacznij wygrywać!</h3>
+    <form class="Forma">
+        <div>
+            <label for="login">Login:</label>
+            <input type="text" id="Login" name="login" placeholder="Login">
+        </div>
+        <div>
+            <label for="pass">Hasło:</label>
+            <input type="text" id="pass" name="pass" placeholder="zaq1@WSX">
+        </div>
+        <p>Automatycznie pobieraj środki z bankowości?</p>
+        <div>
+            <label for="g1">Tak</label>
+            <input type="radio" id="g1" name="gender">
+            <label for="g2">Tak</label>
+            <input type="radio" id="g2" name="gender">
+            <label for="g3">TAK!!</label>
+            <input type="radio" id="g3" name="gender">
+        </div>
+        <div>
+            <label for="Card">Numer Karty</label>
+            <input type="number" id="Card" name="Card" placeholder="1111-1111-1111-1111" required minlength="12" maxlength="12">
+        </div>
+        <div>
+            <label for="date">Data wygaśnięcia</label>
+            <input type="date" id="date" name="date" value="2026-01-01">
+        </div>
+        <div>
+            <input type="submit" class="nigas">
+            <input type="reset" class="nigas">
+        </div>
+    </form>
+</body>
+</html>
